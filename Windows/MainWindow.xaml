@@ -22,10 +22,55 @@
 
         <StackPanel Grid.Column="1" Width="200">
             <TextBlock Text="Seja bem-vindo!" Foreground="#499717" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" Margin="0 50 0 20"/>
-            <Button Padding="20" FontFamily="Gugi" Cursor="Hand" Background="#46CBE2" Margin="0 5 0 20" />
+            <Button Padding="10"
+                        FontSize="20"  FontFamily="Gugi" Background="#499717"
+                        BorderBrush="Transparent" Cursor="Hand" Margin="15 10 10 20">
+
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+
+                <WrapPanel>
+                    <TextBlock Foreground="#FFCBE7B6" FontFamily="Calibri"><Run Text="Login"/></TextBlock>
+                </WrapPanel>
+
+            </Button>
+            <Button Padding="10"
+                        FontSize="20"  FontFamily="Calibri" Background="#499717"
+                        BorderBrush="Transparent" Cursor="Hand" Margin="15 0 10 20">
+
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+
+                <WrapPanel>
+                    <TextBlock Foreground="#FFCBE7B6"><Run Text="Notificações"/></TextBlock>
+                </WrapPanel>
+
+            </Button>
+            <Button Padding="10"
+                        FontSize="20"  FontFamily="Gugi" Background="#499717"
+                        BorderBrush="Transparent" Cursor="Hand" Margin="15 0 10 20">
+
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+
+                <WrapPanel>
+                    <TextBlock Foreground="#FFCBE7B6" FontFamily="Calibri"><Run Text="Agenda"/></TextBlock>
+                </WrapPanel>
+
+            </Button>
+            
         </StackPanel>
 
 
-
+        <!---->
     </Grid>
 </Window>

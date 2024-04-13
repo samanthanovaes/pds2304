@@ -16,3 +16,5 @@ C:\Users\saman\OneDrive\Área de Trabalho\SisteminhaEscolar\obj\Debug\LoginWindo
 C:\Users\saman\OneDrive\Área de Trabalho\SisteminhaEscolar\obj\Debug\LoginWindow.baml
 C:\Users\saman\OneDrive\Área de Trabalho\SisteminhaEscolar\obj\Debug\Windows\MainWindow.g.cs
 C:\Users\saman\OneDrive\Área de Trabalho\SisteminhaEscolar\obj\Debug\Windows\MainWindow.baml
+C:\Users\saman\OneDrive\Área de Trabalho\SisteminhaEscolar\obj\Debug\Windows\Telaprincipal.g.cs
+C:\Users\saman\OneDrive\Área de Trabalho\SisteminhaEscolar\obj\Debug\Windows\Telaprincipal.baml
