@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SisteminhaEscolar.Windows;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,12 @@ namespace SisteminhaEscolar
         public LoginWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            CadastrarEscola m = new CadastrarEscola();
+            m.Show();
         }
     }
 }

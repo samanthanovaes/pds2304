@@ -83,7 +83,7 @@
 
                 <Button Grid.Column="1" Padding="6"
                         FontSize="20"  FontFamily="Gugi" Background="#FFCBE7B6"
-                        BorderBrush="Transparent" Margin="0,0,20,5" Cursor="Hand">
+                        BorderBrush="Transparent" Margin="0,0,20,5" Cursor="Hand" Click="Button_Click">
 
                     <WrapPanel>
                         <TextBlock Foreground="#FF81B95D">Entrar</TextBlock>

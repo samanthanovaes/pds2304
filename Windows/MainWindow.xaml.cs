@@ -23,5 +23,23 @@ namespace SisteminhaEscolar.Windows
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.Show();
+        }
+
+        private void Acesso_Login (object sender, MouseButtonEventArgs a)
+        {
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.Show();
+            this.Close();
+        }
+
+        private void Button_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }

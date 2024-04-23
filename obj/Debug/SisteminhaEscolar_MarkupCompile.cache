@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\saman\OneDrive\Área de Trabalho\SisteminhaEscolar\App.xaml
-3-1658250024
+10-575806229
 
-71673510366
+14-1303519513
 13-1310406943
-LoginWindow.xaml;Windows\MainWindow.xaml;Windows\Telaprincipal.xaml;
+LoginWindow.xaml;Windows\CadastrarAluno.xaml;Windows\CadastrarCurso.xaml;Windows\CadastrarEscola.xaml;Windows\CadastrarTurma.xaml;Windows\ConsultarAluno.xaml;Windows\ConsultarCurso.xaml;Windows\ConsultarEscola.xaml;Windows\ConsultarTurma.xaml;Windows\MainWindow.xaml;
 
 False
 

@@ -55,11 +55,32 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Windows\CadastrarAluno.xaml.cs">
+      <DependentUpon>CadastrarAluno.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CadastrarCurso.xaml.cs">
+      <DependentUpon>CadastrarCurso.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CadastrarEscola.xaml.cs">
+      <DependentUpon>CadastrarEscola.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\CadastrarTurma.xaml.cs">
+      <DependentUpon>CadastrarTurma.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ConsultarAluno.xaml.cs">
+      <DependentUpon>ConsultarAluno.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ConsultarCurso.xaml.cs">
+      <DependentUpon>ConsultarCurso.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ConsultarEscola.xaml.cs">
+      <DependentUpon>ConsultarEscola.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ConsultarTurma.xaml.cs">
+      <DependentUpon>ConsultarTurma.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\Telaprincipal.xaml.cs">
-      <DependentUpon>Telaprincipal.xaml</DependentUpon>
     </Compile>
     <Page Include="LoginWindow.xaml">
       <SubType>Designer</SubType>
@@ -72,11 +93,39 @@
     <Compile Include="LoginWindow.xaml.cs">
       <DependentUpon>LoginWindow.xaml</DependentUpon>
     </Compile>
-    <Page Include="Windows\MainWindow.xaml">
+    <Page Include="Windows\CadastrarAluno.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\Telaprincipal.xaml">
+    <Page Include="Windows\CadastrarCurso.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\CadastrarEscola.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\CadastrarTurma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ConsultarAluno.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ConsultarCurso.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ConsultarEscola.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ConsultarTurma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\MainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -127,6 +176,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Images\barra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\bala.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
