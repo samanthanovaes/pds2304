@@ -81,7 +81,6 @@
             <TextBlock Text="Nome:" FontWeight="Bold" Foreground="#FF0AAAC6"/>
             <TextBox Text="Informe o nome do curso:" Background="Transparent" BorderThickness="0" Foreground="#FFA5A5A5"/>
             <Rectangle Fill="#46CBE2" Height="2" Margin="0 5 250 15"/>
-            <Rectangle Fill="Black" Height="2"/>
             <TextBlock Text="Descricção:" FontWeight="Bold" Foreground="#FF0AAAC6"/>
             <TextBox Text="Informe a descrição do curso:" Background="Transparent" BorderThickness="0" Foreground="#FFA5A5A5"/>
             <Rectangle Fill="#46CBE2" Height="2" Margin="0 5 250 15"/>
@@ -92,7 +91,7 @@
             <TextBox Text="Informe a atividade do curso (ativo ou não):" Background="Transparent" BorderThickness="0" Foreground="#FFA5A5A5"/>
             <Rectangle Fill="#46CBE2" Height="2" Margin="0 5 250 15"/>
             
-
+                <!--eroutoeurtunpetuptupe-->
 
             <Grid Margin="0 2" VerticalAlignment="Center">
 
